@@ -4,24 +4,30 @@
     "slug": "tarea6-amadis",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Perfil.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anderr009.tarea6amadis"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Perfil.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anderr009.tarea6amadis"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/Perfil.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0ad9ba83-78ad-4138-aeaf-ab497a96d68c"
+      }
     }
   }
 }
